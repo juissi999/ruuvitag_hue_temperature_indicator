@@ -7,3 +7,4 @@ according to the temperature.
 ## Installation
 pip install phue
 pip install python-dotenv
+pip install ruuvitag_sensor
