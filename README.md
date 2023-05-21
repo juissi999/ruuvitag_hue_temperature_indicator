@@ -5,9 +5,7 @@ A project that reads temperature from ruuvitag sensor and changes the hue light
 according to the temperature.
 
 ## Installation
-pip install phue
-pip install python-dotenv
-pip install ruuvitag_sensor
+pip install -r requirements.txt
 
 cp .env.example .env
 
