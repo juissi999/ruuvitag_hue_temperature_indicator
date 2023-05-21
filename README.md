@@ -5,10 +5,14 @@ A project that reads temperature from ruuvitag sensor and changes the hue light
 according to the temperature.
 
 ## Installation
-pip install -r requirements.txt
+Install required packages with command
+`pip install -r requirements.txt`
 
-cp .env.example .env
+Create .env file from example with command
+`cp .env.example .env`
 
 -> edit your hue bridge ip to .env
 
-run python main.py
+establish connection to your hue bridge
+`python establish_hue_connection.py`
+
